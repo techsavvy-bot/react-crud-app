@@ -23,7 +23,10 @@ export default function Home() {
   }, []);
 
   return (
-    <Base title="Welcome to Tshirt">
+    <Base
+      title="Welcome to Tshirt"
+      description="You can choose from variety of collections"
+    >
       <div className="row text-center">
         <h1 className="text-white">Tshirts Collection</h1>
         <div className="row">
